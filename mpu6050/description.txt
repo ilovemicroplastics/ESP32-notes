@@ -1,0 +1,1 @@
+A program that takes readings from a MPU6050, which is connected to an ESP32.
