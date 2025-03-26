@@ -32,3 +32,5 @@ void loop() {
 Get drivers:
 <https://randomnerdtutorials.com/install-esp32-esp8266-usb-drivers-cp210x-windows/>
 <https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads>
+
+Workout how UART works: <https://randomnerdtutorials.com/esp32-uart-communication-serial-arduino/>
