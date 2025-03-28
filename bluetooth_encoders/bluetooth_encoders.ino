@@ -217,12 +217,11 @@ void loop(){
             throttleValue = 0.0;  // Maintain speed
             steeringValue = -1.0;  // Turn right (negative steering)
             break;
-        default:
-            delay(1500);
+        
+        case 'x':
             // Stop all motors
             throttleValue = 0.0;
             steeringValue = 0.0;
-            break;
     }
 
     // Deadzone handling
