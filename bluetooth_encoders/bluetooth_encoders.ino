@@ -173,6 +173,8 @@ void setup(){
     pinMode(INP_1[k], OUTPUT);
     pinMode(INP_2[k], OUTPUT);
     motor[k].setParams(PGAIN,DGAIN,IGAIN,UMAX);
+
+    delay(1000);
   }
   
 
@@ -288,5 +290,7 @@ void loop(){
     count_prev = count;
 
   }
+
+}
 
 }
