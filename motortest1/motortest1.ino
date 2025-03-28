@@ -33,6 +33,8 @@ void setup() {
     
     // Attach PWM channel to pin
     ledcAttach(PWM[k], 5000, 8);  // Pin, frequency, resolution
+
+    delay(2000);
   }
 }
 
